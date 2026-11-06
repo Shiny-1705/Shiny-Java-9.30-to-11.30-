@@ -1,0 +1,150 @@
+Programming language:
+Communication between system and the human
+
+3 types:
+1.Low level-->Machine friendly---->0's & 1's
+1 byte=8 bit(1 2 4 8 16 24 64 128)
+Ascii value
+A=65(10000010)
+B=67
+
+2.Mid level-->Both human+ machine-->C programming
+Disadvantage--->No App development,No security
+
+3.High level->Human friendly-->Python,Java,C++
+-->Secured
+
+#Complier & Interpreter
+
+1.JDK-->Java Development Kit
+Provides all the tools requied to develop,complie and to run the java
+
+Components of :
+JRE,JVM, Development tools
+
+2.JRE-->Java runtime environment
+3.JVM-->Java Virtual Machine(Interpreter)
+4.JIT-->Just in time
+
+Primitive:
+Types:8 types
+Build in data 
+
+Non-primitive--->Used to store references
+
+
+#06-11-2026
+
+package Kani;
+import java.util.Scanner;
+public class java 
+{
+	public static void main(String[] args)
+	{
+    //	public static void main(String[] args) 
+//	{
+//		System.out.println("Hiii");
+//
+//	}
+	
+//	public static void main(String[] args)
+//	{
+//Data types
+//		int age=208529637;
+//		float mark=95.5f;
+//		double salary=25000.50;
+//		char grade='A';
+//		String name="Kanishka";
+//		boolean result=true;
+//		System.out.println("Name:"+name);
+//		System.out.println("Age:"+age);
+//		System.out.println(result);
+		
+
+//To find the byte value of a data type
+//		System.out.println("Byte:"+Byte.BYTES);
+//		System.out.println("Integer"+Integer.BYTES);
+//		System.out.println("Double:"+Double.BYTES);		
+		
+		
+//Arithmetic Operator
+//		public static void main(String[] args)
+//		{
+//			int a=10;
+//			int b=20;
+//			System.out.println("Add:"+ a+b);
+//			System.out.println("Sub:"+(a-b));
+//			System.out.println("Multply:"+(a*b));
+//			System.out.println("Division:"+(a/b));
+//			System.out.println("Modulas:"+(a%b));
+		
+//Logical(and(&&),or(||),not(!))
+//	public static void main(String[] args)
+//	{
+//		int a=10;
+//		int b=20;
+//		System.out.println(a>b && b<30);
+//		System.out.println(a==b || b!=0);
+//		System.out.println(!(a==b));
+//		}
+
+//		Assignment operator
+//		int x=5;
+//		System.out.println(x+=5);  
+//		System.out.println(x-=2);
+//		System.out.println(x*=4);
+//		System.out.println(x);
+		
+//		Unary Operator
+//		int a=5;
+//		System.out.println(-a);
+////		Pre
+//		System.out.println(--a);
+//		System.out.println(++a);
+////		Post
+//		System.out.println(a--);
+//		System.out.println(a);
+//		System.out.println(a++);
+//		System.out.println(a);
+		
+//		Relational Operator
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int i=sc.nextInt();
+//	    System.out.println("Enter b:");
+//	    int j=sc.nextInt();
+//	    System.out.println(i==j);
+//	    System.out.println(i!=j);
+//	    System.out.println(i>j);
+//	    System.out.println(i<j);
+//	    System.out.println(i>=j);
+//	    System.out.println(i<=j);
+	}
+
+
+#User-input
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter your name:");
+//	    String name=sc.nextLine();
+//	    System.out.println("Enter your age:");
+//	    int age=sc.nextInt();
+//	    System.out.println(name);
+//	    System.out.println(age);
+//	}
+
+#Relatonal
+public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a:");
+	    int i=sc.nextInt();
+	    System.out.println("Enter b:");
+	    int j=sc.nextInt();
+	    System.out.println(i==j);
+	    System.out.println(i!=j);
+	    System.out.println(i>j);
+	    System.out.println(i<j);
+	    System.out.println(i>=j);
+	    System.out.println(i<=j);	
+
+
