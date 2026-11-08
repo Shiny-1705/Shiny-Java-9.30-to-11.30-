@@ -1,0 +1,111 @@
+### Task 1 – Hello World
+
+* Print `Hello World`.
+
+* Print your name, course name and institute name.
+
+### Task 2 – Variables & Data Types
+
+Declare and print the following variables using appropriate data types:
+
+* Name – String
+
+* Age – int
+
+* Mark – float
+
+* Height – double
+
+* Gender – char
+
+* Is Student – boolean
+
+* Mobile Number – long
+
+* Grade – char
+
+* Total Fees – double
+
+* Number of Subjects – byte
+
+### Task 3 – Byte Data Type
+
+* Declare a variable using `byte`.
+
+* Assign a value and print it.
+
+* Check the minimum and maximum values of byte.
+
+* Try assigning a value outside the byte range and observe the error.
+
+### Task 4 – Java Data Types
+
+Declare and display all 8 primitive data types:
+
+* byte
+
+* short
+
+* int
+
+* long
+
+* float
+
+* double
+
+* char
+
+* boolean
+
+### Task 5 – Operators in Java
+
+1\. Arithmetic Operators
+
+* Addition (+)
+
+* Subtraction (-)
+
+* Multiplication (\*)
+
+* Division (/)
+
+* Modulus (%)
+
+2\. Assignment Operators
+
+* Assignment (=)
+
+* Addition assignment (+=)
+
+* Subtraction assignment (-=)
+
+* Multiplication assignment (\*=)
+
+* Division assignment (/=)
+
+* Modulus assignment (%=)
+
+3\. Conditional Operator
+
+* Find the biggest of two numbers using the ternary operator.
+
+* Check whether a number is even or odd.
+
+4\. Unary Operators
+
+* Pre-increment (++a)
+
+* Post-increment (a++)
+
+* Pre-decrement (--a)
+
+* Post-decrement (a--)
+
+5\. Logical Operators
+
+* AND (&&)
+
+* OR (||)
+
+* NOT (!)
