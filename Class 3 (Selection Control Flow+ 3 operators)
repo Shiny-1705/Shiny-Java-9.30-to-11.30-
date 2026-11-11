@@ -1,0 +1,153 @@
+package hiii;
+import java.util.Scanner;
+public class hello {
+	public static void main(String[]args)
+	{
+//		Ternary Operator
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int a=sc.nextInt();
+//	    System.out.println("Enter b:");
+//	    int b=sc.nextInt();
+//	    
+//        int result = (a > b) ? a : b;
+//        System.out.println("Biggest Number:"+ result);
+        
+//        Bitwise operator
+//        Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int a=sc.nextInt();
+//	    System.out.println("Enter b:");
+//	    int b=sc.nextInt();
+//	    System.out.println("AND:"+(a&b));
+//	    System.out.println("OR:"+(a|b));
+//	    System.out.println("XOR:"+(a^b));
+//	    System.out.println("Negation:"+(~a));
+//	    System.out.println("Negation:"+(~b));
+		
+//		Shift operator
+//		Left shift
+//		int a=5;
+//		System.out.println(a<<1);
+//		System.out.println(a<<2);
+////		Right Shift
+//		System.out.println(a>>1);
+//		System.out.println(a>>2);
+////		Unsigned Right shift
+//		int b=-8;
+//		System.out.println(b>>>1);
+//		System.out.println(a>>>1);
+		
+//		if 
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int a=sc.nextInt();
+//		if (a>10)
+//		{
+//			System.out.println("Greater");
+//		}
+//		Check whether it is even number
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int a=sc.nextInt();
+//		if (a%2==0) {
+//			System.out.println("Even number");
+//		}
+		
+//		if-else
+//		Even or odd
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int a=sc.nextInt();
+//		if (a%2==0) {
+//			System.out.println("Even number");
+//		}
+//		else {
+//			System.out.println("Odd number");
+//		}
+		
+//		Divisible by 3 and 5
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int a=sc.nextInt();
+//		if ((a%3==0) && (a%5==0) )
+//		{
+//			System.out.println("Divisible");
+//		}
+//		else 
+//		{
+//			System.out.println("Not divisible");
+//		}
+		
+//		else-if ladder
+//		Grade
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int a=sc.nextInt();
+//	    if (a>80) {
+//	    	System.out.println("A grade");
+//	    }
+//	    else if (a>60){
+//	    	System.out.println("B grade");
+//	    }
+//	    else if (a>40) {
+//	    	System.out.println("C grade");
+//	    }
+//	    else {
+//	    	System.out.println("Fail");
+//	    }
+	    
+//	    Check +ve / -ve / zero
+//	    Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a:");
+//	    int a=sc.nextInt();
+//	    if (a>0) {
+//	    	System.out.println("Positive");
+//	    }
+//	    else if (a<0) {
+//	    	System.out.println("Negative");
+//	    }
+//	    else {
+//	    	System.out.println("Zero");
+//	    }
+		
+//		Nested if-else
+//		String username="Kani";
+//		String password="Kani123";
+//		if (username=="Kani") 
+//		{
+//			System.out.println("User verified");
+//			if (password=="Kani123") 
+//			{
+//			  System.out.println("Pass verified");
+//			  }
+//			else 
+//			{
+//				System.out.println("Incorrect pass");
+//				}
+//			}
+//		 else{
+//			System.out.println("Incorrect username");
+//			}
+		
+//		Switch case
+//		Days of the week
+//		int day=1;
+//		switch(day) {
+//		case 1:
+//			System.out.println("Monday");
+//			break;
+//		case 2:
+//			System.out.println("Tuesday");
+//			break;
+//		case 3:
+//			System.out.println("Wedneday");
+//			break;
+//		case 4:
+//			System.out.println("Thursday");
+//			break;
+//		case 5:
+//			System.out.println("Friday");
+//		}
+	}	
+}
