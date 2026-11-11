@@ -1,0 +1,57 @@
+### A. Ternary Operator
+
+1. Find the smallest of two numbers.
+2. Check whether a number is positive or negative.
+3. Check whether a student passed or failed (pass mark: 35).
+4. Find the biggest of three numbers using nested ternary operators.
+5. Check whether a person is eligible for a driving licence (age 18 or above).
+
+### B. Bitwise Operators
+
+6. Read two integers and perform AND, OR and XOR operations.
+7. Find the complement of a given number using NOT (`~`).
+8. Check whether a number is odd or even using bitwise AND.
+9. Swap two numbers using XOR.
+10. Check whether a given positive number is a power of 2.
+
+### C. Shift Operators
+
+11. Perform left shift by 2 positions.
+12. Perform right shift by 3 positions.
+13. Demonstrate unsigned right shift using a negative number.
+14. Multiply a number by 8 using the left shift operator.
+15. Divide a positive integer by 4 using the right shift operator.
+
+## Module 2: Selection Control Flow
+
+### A. if and if-else
+
+16. Check whether a number is divisible by 7.
+17. Check whether a person is eligible to vote.
+18. Check whether the last digit of a number is 5.
+19. Check whether a number is a multiple of both 3 and 5.
+20. Check whether a given character is a vowel or consonant.
+
+### B. else-if Ladder
+
+21. Find the biggest among three numbers.
+22. Display grades based on marks.
+23. Check whether a number is positive, negative or zero.
+24. Display electricity bill categories based on units consumed.
+25. Display the season based on the month number.
+
+### C. Nested if-else
+
+26. Validate a username and password.
+27. Check scholarship eligibility based on marks, attendance and family income.
+28. Check whether a person is eligible for a job based on age and qualification.
+
+### D. Switch Case
+
+29. Create a calculator supporting addition, subtraction, multiplication and division.
+30. Create a menu to display student details based on the selected option:
+
+- 1 – Name
+- 2 – Age
+- 3 – Course
+- 4 – College
