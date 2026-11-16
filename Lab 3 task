@@ -1,0 +1,143 @@
+### Part 1 – Basic For Loop
+
+* Print numbers from 1 to 10.
+
+* Print numbers from 1 to 50.
+
+* Print numbers from 50 to 1.
+
+* Print numbers from 10 to 100.
+
+* Print even numbers from 1 to 50.
+
+* Print odd numbers from 1 to 50.
+
+* Print multiples of 3 from 1 to 30.
+
+* Print multiples of 5 from 1 to 100.
+
+* Print the multiplication table of 2.
+
+* Print the multiplication table of 10.
+
+### Part 2 – Increment Programs (`++`)
+
+* Print numbers from 1 to 20 using `i++`.
+
+* Print numbers from 5 to 25.
+
+* Print even numbers from 2 to 30 using `i += 2`.
+
+* Print odd numbers from 1 to 29 using `i += 2`.
+
+* Find the sum of numbers from 1 to 10.
+
+* Find the sum of even numbers from 1 to 50.
+
+* Find the sum of odd numbers from 1 to 50.
+
+* Print the squares of numbers from 1 to 10.
+
+* Print the cubes of numbers from 1 to 10.
+
+* Find the factorial of a given number using increment.
+
+### Part 3 – Decrement Programs (`--`)
+
+* Print numbers from 20 to 1.
+
+* Print numbers from 100 to 1.
+
+* Print even numbers from 50 to 2.
+
+* Print odd numbers from 49 to 1.
+
+* Print multiples of 5 from 100 to 5.
+
+* Print the multiplication table of 5 in reverse order.
+
+* Find the sum of numbers from 10 to 1.
+
+* Print a countdown from 100 to 0.
+
+* Find the factorial of 5 using decrement.
+
+* Print numbers from 50 to 0, decreasing by 5.
+
+### Part 4 – Break Statement
+
+* Print numbers from 1 to 20, but stop when the number reaches 10.
+
+* Print numbers from 1 to 100, but stop at 50.
+
+* Print numbers from 1 to 30, but stop when the number is divisible by 7.
+
+* Print the multiplication table of 5, but stop after 5 × 5.
+
+* Print numbers from 100 to 1, but stop at 90.
+
+* Find the first number divisible by 9 between 1 and 100 using `break`.
+
+* Print numbers from 1 to 50 and stop when the number is 25.
+
+* Print even numbers from 2 to 100 and stop at 40.
+
+### Part 5 – Continue Statement
+
+* Print numbers from 1 to 20, skipping 10.
+
+* Print numbers from 1 to 50, skipping multiples of 5.
+
+* Print only odd numbers from 1 to 30 using `continue`.
+
+* Print only even numbers from 1 to 30 using `continue`.
+
+* Print numbers from 1 to 100, skipping numbers divisible by 10.
+
+* Print the multiplication table of 7, skipping 7 × 5.
+
+* Print numbers from 1 to 30, skipping multiples of 3.
+
+* Find the sum of numbers from 1 to 20, excluding 10.
+
+* Print numbers from 50 to 1, skipping multiples of 5.
+
+* Print numbers from 1 to 100, skipping numbers divisible by both 3 and 5.
+
+### Part 6 – Logic Building Challenge
+
+* Count the number of digits in a given number.
+
+* Find the sum of digits of a given number.
+
+* Reverse a given number.
+
+* Check whether a number is a palindrome.
+
+* Check whether a number is prime.
+
+* Print all prime numbers from 1 to 100.
+
+* Find the factorial of a user-input number.
+
+* Print the Fibonacci series.
+
+* Check whether a number is an Armstrong number.
+
+* Find the multiplication table of a user-input number.
+
+### Part 7 – Special Challenge
+
+These programs combine `for`, `break`, and `continue`.
+
+59\. Print numbers from 1 to 100, skip even numbers and stop at 75.
+
+60\. Print numbers from 1 to 100, skip multiples of 3 and stop at 50.
+
+61\. Find the sum of odd numbers from 1 to 100, excluding numbers divisible by 5.
+
+62\. Print the multiplication table of 8, skipping 8 × 4 and stopping at 8 × 8.
+
+63\. Print numbers from 100 to 1, skip multiples of 10 and stop at 50.
+
+64\. Find the first 5 numbers divisible by 7 between 1 and 100 using `break`.
