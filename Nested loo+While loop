@@ -1,0 +1,227 @@
+package hiii;
+import java.util.*;
+public class hello {
+    public static void main(String[] args)
+    {
+
+//   5x5 pattern
+//        for (int i = 1; i <= 4; i++) {
+//            for (int j = 1; j <= 5; j++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+//    	
+//   Right angled
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= i; j++) { 
+//            	
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+        
+// Inverted triangle
+//
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 5; j >= i ; j--) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+//Hollow square
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= 5; j++) {
+//                if (i == 1 || i == 5 || j == 1 || j == 5) {
+//                    System.out.print("* ");
+//                } else {
+//                    System.out.print("  ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+//  Plus pattern
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= 5; j++) {
+//                if (i == 3 || j == 3) {
+//                    System.out.print("* ");
+//                } else {
+//                    System.out.print("  ");
+//                }
+//            }
+//            System.out.println();
+//        }  
+    	
+// X pattern
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= 5; j++) {
+//                if (i == j || i + j == 6) {
+//                    System.out.print("* ");
+//                } else {
+//                    System.out.print("  ");
+//                }
+//            }
+//            System.out.println();
+//        }
+//  V pattern
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= 9; j++) {
+//                if (j == i || j == 10 - i) {
+//                    System.out.print("* ");
+//                } else {
+//                    System.out.print("  ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+//   String pattern
+//
+//        String str = "JAVA";
+//        for (int i = 1; i <= 4; i++) {
+//            for (int j = 0; j < i; j++) {
+//                System.out.print(str.charAt(j) + " ");
+//            }
+//            System.out.println();
+//        }
+//
+//  Border alphabet pattern
+//        char ch = 'A';
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= 5; j++) {
+//                if (i == 1 || i == 5 || j == 1 || j == 5) {
+//                    System.out.print(ch + " ");
+//                    ch++;
+//                } else {
+//                    System.out.print("  ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+//      Alphabet triangle
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print((char)('A' + j - 1) + " ");
+//            }
+//            System.out.println();
+//        }
+//  Continuous alphabet pattern
+//        char letter = 'A';
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print(letter + " ");
+//                letter++;
+//            }
+//            System.out.println();
+//        }
+         }
+}
+    	
+-------------------------------
+while loop
+-------------------------------
+package hiii;
+
+public class loop 
+{
+
+	public static void main(String[] args) 
+	{
+//		while loop
+//		Increment
+//		int i=1;
+//		while (i<=5) {
+//			System.out.println(i);
+//			i++;
+//		}
+//		Decrement
+//		int i=5;
+//		while (i>=1) {
+//			System.out.println(i);
+//			i--;
+//		}
+		
+//while + if loop
+//Print the even numbers from 1 to 10
+//		int i=1;
+//		while (i<=10) 
+//		{
+//			if (i%2==0)
+//			{
+//				System.out.println(i);
+//			}
+//			i++;
+//		}
+		
+//break
+//		int i=1;
+//		while (i<=5) 
+//		{
+//			if(i==3)
+//			{
+//				break;
+//			}
+//			System.out.println(i);
+//			i++;
+//		}
+
+//continue
+//		int i=1;
+//		while (i<=5) 
+//		{
+//			if(i==3)
+//			{
+//				i++;
+//				continue;
+//			}
+//				System.out.println(i);
+//				i++;
+//		}
+//		add even and odd nos separately
+//		int a=0;
+//		int even=0;
+//		int odd=0;
+//		while (a<=10) 
+//		{
+//			if(a%2==0)
+//			{
+//				even++;
+//			}
+//			else
+//			{
+//				odd++;
+//			}
+//			a++;
+//		}
+//		System.out.println("Even="+even);
+//		System.out.println("Odd="+odd);
+		
+//		Palindrome
+		int a=121;
+		int b=0;
+		int t=a;
+		int d;
+		while (t>0)
+		{
+			d=t%10;
+			b=(b*10)+d;
+			t=t/10;
+		}
+		System.out.println("b:"+b);
+		{
+			if(b==a)
+			{
+				System.out.println("Palindrome");
+			}
+			else
+			{
+				System.out.println("Not a palindrome");
+			}
+			}
+	}
+}
+
+
