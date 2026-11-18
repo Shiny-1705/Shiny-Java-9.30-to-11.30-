@@ -1,0 +1,63 @@
+### 1\. Nested For Loop – Easy Tasks
+
+* Print 5 rows of stars.
+
+* Print a 3 × 3 star square.
+
+* Print numbers from 1 to 5 in 3 rows.
+
+* Print this pattern:
+
+```text
+*
+**
+***
+****
+*****
+
+* Hollow pattern 
+
+* Alphabet pattern 
+* Continuous Alphabet pattern 
+
+* Print a 5 × 5 number square.
+
+* Print multiplication tables from 1 to 3.
+
+### 2\. While Loop – Easy Tasks
+
+* Print numbers from 1 to 10.
+
+* Print numbers from 10 to 1.
+
+* Print even numbers from 1 to 20.
+
+* Print odd numbers from 1 to 20.
+
+* Print multiples of 5 up to 50.
+
+* Find the sum of numbers from 1 to 10.
+
+* Print multiplication table of 2.
+
+* Count from 1 to 20.
+
+* Find the sum of even numbers from 1 to 20.
+
+* Find the factorial of 5.
+
+### 3\. While + If – Easy Tasks
+
+* Print numbers divisible by 2.
+
+* Print numbers divisible by 3.
+
+* Print numbers divisible by 5.
+
+* Count even and odd numbers from 1 to 20.
+
+* Print numbers greater than 10.
+
+* Skip number 5 using `continue`.
+
+* Stop the loop at 8 using `break`.
