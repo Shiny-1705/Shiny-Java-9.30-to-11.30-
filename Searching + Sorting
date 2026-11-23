@@ -1,0 +1,148 @@
+package hiii;
+import java.util.Scanner;
+public class loop 
+{
+	public static void main(String[] args) 
+	{
+//		User-Input
+//		Scanner sc=new Scanner(System.in);
+//		{
+//			int a[] = {10, 20, 30, 40, 50};
+//			System.out.print("Enter number:");
+//			int search=sc.nextInt();
+//			for (int i = 0; i < a.length; i++) 
+//		        {
+//		            if (a[i] == search) 
+//		            {
+//		                System.out.println("Element Found"+i);
+//		                break;
+//		            }
+//		        }
+//		}
+	
+//		Linear search
+//        int a[] = {10, 20, 30, 40, 50};
+//        int search = 30;
+//
+//        for (int i = 0; i < a.length; i++) 
+//        {
+//
+//            if (a[i] == search) 
+//            {
+//                System.out.println("Element Found");
+//                break;
+//            }
+//        }
+//		Binary search
+//        int a[] = {10, 20, 30, 40, 50, 60, 70};
+//        int search = 40;
+//        int low = 0;  
+//        int high = a.length - 1;
+//        while (low <= high) {
+//
+//            int mid = (low + high) / 2;
+//
+//            if (a[mid] == search) {
+//                System.out.println("Element Found");
+//                break;
+//            }
+//            else if (search > a[mid]) {
+//                low = mid + 1;
+//            }
+//            else {
+//                high = mid - 1;
+//            }
+//        }
+        
+//        User-input 
+//        Scanner sc = new Scanner(System.in);
+//        int a[] = new int[5];
+//        System.out.println("Enter 5 elements in sorted order:");
+//        for (int i = 0; i < 5; i++) {
+//            a[i] = sc.nextInt();
+//        }
+//        System.out.println("Enter element to search:");
+//        int search = sc.nextInt();
+//        int low = 0;
+//        int high = a.length - 1;
+//        boolean found = false;
+//        while (low <= high) {
+//            int mid = (low + high) / 2;
+//            if (a[mid] == search) {
+//                found = true;
+//                break;
+//            }
+//            else if (search > a[mid]) {
+//                low = mid + 1;
+//            }
+//            else {
+//                high = mid - 1;
+//            }
+//        }
+//        if (found) {
+//            System.out.println("Element Found");
+//        }
+//        else {
+//            System.out.println("Element Not Found");
+//        }
+//        sc.close();
+		
+//		Bubble sort
+//		int a[] = {5, 3, 4, 1, 2};
+//        for (int i = 0; i < a.length-1; i++) 
+//        {
+//            for (int j = 0; j < a.length-1; j++) 
+//            {
+//                if (a[j] > a[j + 1]) 
+//                {
+//                    int temp = a[j];
+//                    a[j] = a[j + 1];
+//                    a[j + 1] = temp;
+//                }
+//            }
+//        }
+//        System.out.println("Sorted Array:");
+//        for (int i = 0; i < 5; i++) 
+//        {
+//            System.out.print(a[i] + " ");
+//        }
+//    }
+//}
+//	Selection Sort
+//	 int a[] = {5, 3, 4, 1, 2};
+//     for (int i = 0; i < 4; i++) 
+//     {
+//         int min = i;
+//         for (int j = i + 1; j < 5; j++) 
+//         {
+//             if (a[j] < a[min]) {
+//                 min = j;
+//             }
+//         }
+//         int temp = a[i];
+//         a[i] = a[min];
+//         a[min] = temp;
+//     }
+//     System.out.println("Sorted Array:");
+//     for (int i = 0; i < 5; i++) {
+//         System.out.print(a[i] + " ");
+//     }
+// }
+//}
+//Insertion Sort
+//		int a[] = {5, 3, 4, 1, 2};
+//		for (int i = 1; i < 5; i++) {
+//		    int key = a[i];
+//		    int j = i - 1;
+//		    while (j >= 0 && a[j] > key) {
+//		        a[j + 1] = a[j];
+//		        j--;
+//		    }
+//		    a[j + 1] = key;
+//		}
+//		System.out.println("Sorted Array:");
+//		for (int i = 0; i < 5; i++) {
+//		    System.out.print(a[i] + " ");
+//		}
+//	}
+//}
