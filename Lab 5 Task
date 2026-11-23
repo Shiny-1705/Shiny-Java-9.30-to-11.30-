@@ -1,0 +1,94 @@
+
+### 1\. Typecasting – Tasks
+
+Basic Level
+
+* Convert an `int` value into `double` (implicit typecasting).
+
+* Convert a `double` value into `int` (explicit typecasting).
+
+* Convert a `float` into `int`.
+
+* Convert an `int` into `float`.
+
+* Convert a `char` into `int` and print its ASCII value.
+
+* Convert an `int` into `char` and print the character.
+
+Practice Programs
+
+* Convert `25` into `double`.
+
+* Convert `45.89` into `int`.
+
+* Convert `67.5f` into `int`.
+
+* Convert character `'A'` into its integer value.
+
+* Convert integer `66` into its corresponding character.
+
+### 2\. Searching – Tasks
+
+### Linear Search
+
+* Find a given number in an array.
+
+* Search for a student's mark in an array.
+
+* Find the position of a given element.
+
+* Search for a number and print `Found` or `Not Found`.
+
+* Count how many times a given number appears in an array.
+
+Example task:
+
+Given the array:
+
+`{10, 20, 30, 40, 50}`
+
+Search for `30` and print its index.
+
+Expected output:
+
+```text
+Element found at index 2
+```
+
+### Binary Search
+
+* Search for a number in a sorted array.
+
+* Find the index of a target element using binary search.
+
+* Print `Element Found` if the number exists; otherwise print `Not Found`.
+
+* Search for the first and last elements in a sorted array.
+
+### 3\. Sorting – Tasks
+
+### Bubble Sort
+
+* Sort 5 numbers in ascending order.
+
+* Sort numbers in descending order.
+
+* Sort student marks from lowest to highest.
+
+* Sort an array containing duplicate numbers.
+
+### Selection Sort
+
+* Find the smallest element and place it first.
+
+* Sort an array in ascending order using selection sort.
+
+* Sort an array in descending order.
+
+### Insertion Sort
+
+* Sort 5 numbers using insertion sort.
+
+* Sort an array of marks in ascending order.
+
+* Sort numbers in descending order using insertion sort.
