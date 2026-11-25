@@ -1,0 +1,133 @@
+------------------------------------------
+Pre-defined
+-------------------------------------------------
+//String Methods
+//		String name="kanishka";
+//		System.out.println(name.length());
+//		System.out.println(name.toUpperCase());
+//		System.out.println(name.toLowerCase());
+//		System.out.println(name.charAt(0));
+//		System.out.println(name.charAt(3));
+//		System.out.println(name.contains("kani"));
+//		System.out.println(name.contains("hiii"));
+		
+//Math methods
+//		System.out.println(Math.sqrt(64));
+//		System.out.println(Math.max(10, 20));
+//		System.out.println(Math.min(10,20));
+//		System.out.println(Math.abs(-50));
+//		System.out.println(Math.pow(2,3));
+//		System.out.println(Math.random());
+//Character
+//		char ch='A';
+//		System.out.println(Character.isLetter(ch));
+//		System.out.println(Character.isAlphabetic(ch));
+//		System.out.println(Character.isUpperCase(ch));
+//		System.out.println(Character.isLowerCase(ch));
+
+-------------------------------------------
+Static
+---------------------
+//No Parameters, No Return Type
+//	static void ok() {
+//		System.out.println("Welcome");
+//	}
+//	public static void main(String[] args) {
+//		ok();
+		
+//with parameter--No return type
+//	static void add(int a,int b) {
+//		System.out.println("Sum:"+(a+b));
+//	}
+//	public static void main(String[] args) {
+//		add(10,20);
+//No parameter--Return type
+//		static int no()
+//		{
+//			int a=100;
+//			return a;
+//		}
+//		public static void main(String[] args) {
+//			int result=no();
+//			System.out.println(result);
+			
+//With parameter--Return type
+//			static int no(int a,int b)
+//			{
+//				return a*b;
+//			}
+//			public static void main(String[] args) {
+//				int result=no(5,4);
+//				System.out.println("Result:"+result);
+
+//	Even or Odd
+//	static void hi(int n) {
+//		if (n%2==0) {
+//			System.out.println("Even");
+//		}else {
+//			System.out.println("Odd");
+//		}
+//	}
+//		public static void main(String[]args){
+//			hi(5);
+	
+//Largest of 2 number
+//	static int largest(int a ,int b) {
+//		if (a>b)
+//			return a;
+//		else
+//			return b;
+//		}
+//	public static void main(String[]args) {
+//		System.out.println(largest(50,100));
+
+----------------------------
+Instance
+-----------------------------------------
+package hiii;
+
+public class Methods
+{
+// No Parameter - No Return Value
+//    void hiii()
+//    {
+//        System.out.println("Welcome");
+//    }
+//    public static void main(String[] args)
+//    {
+//        Methods obj = new Methods();
+//        obj.hiii();
+        
+//Parameter - No Return Value
+//        void hiii(int a,int b)
+//        {
+//            System.out.println("Sum:"+(a+b));
+//        }
+//        public static void main(String[] args)
+//        {
+//            Methods obj = new Methods();
+//            obj.hiii(50,20);
+        
+// No parameter-Return value
+//            int no()
+//    		{
+//    			int a=100;
+//    			return a;
+//    		}
+//    		public static void main(String[] args) {
+//    			Methods obj = new Methods();
+//                int result=obj.no();
+//                System.out.println(result);
+        
+// No parameter-Return value
+//                int no(int a,int b)
+//        		{
+//        			return a*b;
+//        		}
+//        		public static void main(String[] args) {
+//        			Methods obj = new Methods();
+//                    int result=obj.no(5,4);
+//                    System.out.println(result);
+
+//	Static--->Without creating object
+//	Instance--->With object-->run
