@@ -1,0 +1,129 @@
+ 1: Predefined Methods
+
+Use Java's built-in methods to solve these questions.
+
+Beginner Level
+
+* Write a program to find the length of your name using `length()`.
+
+* Convert a string into uppercase using `toUpperCase()`.
+
+* Convert a string into lowercase using `toLowerCase()`.
+
+* Find the first character of a string using `charAt()`.
+
+* Check whether two strings are equal using `equals()`.
+
+* Replace the word "Python" with "Java" using `replace()`.
+
+* Remove extra spaces using `trim()`.
+
+* Find the square root of 144 using `Math.sqrt()`.
+
+* Find the largest of two numbers using `Math.max()`.
+
+* Find the smallest of two numbers using `Math.min()`.
+
+* Find the absolute value of -50 using `Math.abs()`.
+
+* Calculate 2 raised to the power of 5 using `Math.pow()`.
+
+* Round 45.678 using `Math.round()`.
+
+* Check whether a character is a digit using `Character.isDigit()`.
+
+* Sort an array using `Arrays.sort()`.
+
+### Part 2: User-Defined Methods
+
+Create your own methods to solve these problems.
+
+* Create a method to display your name.
+
+* Create a method to add two numbers.
+
+* Create a method to subtract two numbers.
+
+* Create a method to multiply two numbers.
+
+* Create a method to find the square of a number.
+
+* Create a method to find the cube of a number.
+
+* Create a method to check even or odd.
+
+* Create a method to find the largest of two numbers.
+
+* Create a method to calculate the area of a rectangle.
+
+* Create a method to calculate simple interest.
+
+* Create a method to find factorial.
+
+* Create a method to reverse a number.
+
+* Create a method to check palindrome.
+
+* Create a method to check prime number.
+
+* Create a method to find the sum of digits.
+
+### Part 3: Static Methods
+
+Write the following programs using `static` methods.
+
+* Create a static method to display "Welcome to Java".
+
+* Create a static method to add two numbers without returning a value.
+
+* Create a static method to subtract two numbers and return the result.
+
+* Create a static method without parameters that returns your age.
+
+* Create a static method to find the square of a number.
+
+* Create a static method to check whether a number is positive or negative.
+
+* Create a static method to find the largest of three numbers.
+
+* Create a static method to print a multiplication table.
+
+* Create a static method to calculate factorial.
+
+* Create a static method to check whether a number is palindrome.
+
+### Part 4: Instance Methods
+
+Write the following programs using non-static methods and objects.
+
+* Create an instance method to display your name.
+
+* Create an instance method to add two numbers.
+
+* Create an instance method to find the square of a number.
+
+* Create an instance method to check even or odd.
+
+* Create an instance method to find the largest of three numbers.
+
+* Create an instance method to calculate the area of a circle.
+
+* Create an instance method to calculate simple interest.
+
+* Create an instance method to find factorial.
+
+* Create an instance method to reverse a number.
+
+* Create an instance method to check palindrome.
+
+### Part 5: Real-Time Mini Programs
+
+* Student Management: Use a static method to display college name and an instance method to display student details.
+
+* Bank Account: Use a static method to display bank name and an instance method to display account balance.
+
+* Employee Management: Use a static method to display company name and an instance method to display employee salary.
+
+* Calculator: Use static methods for addition and subtraction, and instance methods for multiplication and division.
+
+* Shopping Bill: Use a static method to display shop name and an instance method to calculate the total bill.
