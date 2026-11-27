@@ -1,0 +1,124 @@
+=======Immutable==========
+package hiii;
+
+public class string {
+
+	public static void main(String[] args) {
+//Immutable--->Cant change the original value
+//		String a="Hello";
+//		System.out.println("Original:"+a);
+//concat-->Create a new string
+//		a.concat("Java");  
+//		System.out.println("After concat:"+a);
+		
+//Modify 
+//		String b="kanishka";
+//		b=b.concat(" Is learning Java");
+//		System.out.println(b);
+//toUpperCase
+//		b=b.toUpperCase();
+//		System.out.println("toUppercase:"+b);
+//toLowercase	
+//		b=b.toLowerCase();
+//		System.out.println("toLowercase:"+b);
+//replace
+//		b=b.replace("kanishka","Java");
+//		System.out.println(b);
+		
+//String
+//		String a="Hello";
+//		String b=a;
+//		a=a.concat("Java");
+//		System.out.println("a:"+a);
+//		System.out.println("b:"+b);
+
+//SubStrings-->begin
+//		String a="Hello world Java";
+//		System.out.println("Substring:"+a.substring(6));
+//		System.out.println("Substring:"+a.substring(5));
+//SubStrings-->begin,end
+//		String a="Hello world Java";
+//		System.out.println("Substring:"+a.substring(0,8));
+//		System.out.println("Substring:"+a.substring(5,9));
+//contains
+//		System.out.println("Contains:"+a.contains("Java"));
+//		System.out.println("Contains:"+a.contains("Net"));
+//split()
+//		String course="Java,Python,C++";
+//		String[]arr=course.split(";");
+//		System.out.println("Split:");
+//		for(String course1:arr) 
+//		{
+//			System.out.println(course1);
+//		}	
+//Trim
+//		String name="   Kanishka is a girl   ";
+//		System.out.println("Trim:",name.trim());
+	}
+
+==========Mutable--->BufferString==============
+//BufferString-->Create and can modify strings
+//		StringBuffer s=new StringBuffer("Hello");
+//		System.out.println("s:"+s);
+//append
+//		s.append(" Java");
+//		System.out.println("Append:"+s);
+//Insert
+//		s.insert(5,"World");
+//		System.out.println("Insert:"+s);
+//replace
+//		s.replace(0, 5,"Hiii");
+//		System.out.println("Replace:"+s);
+//delete
+//		s.delete(0, 4);
+//		System.out.println("Delete:"+s);
+//reverse
+//		s.reverse();
+//		System.out.println("Reverse:"+s);
+//length
+//		System.out.println("Length:"+s.length());
+//capacity
+//		System.out.println("Capacity:"+s.capacity());
+//charAt
+//		System.out.println("charAt:"+s.charAt(0));
+//		System.out.println("charAt:"+s.charAt(1));
+//setCharAt
+//		s.setCharAt(0,'A');
+//		System.out.println("Set Character:"+s);
+}
+
+=======Mutable--->BufferBuilder============
+//StringBuilder
+		StringBuilder s=new StringBuilder("Hello");
+		System.out.println("s:"+s);
+////append
+//		s.append(" Java");
+//		System.out.println("Append:"+s);
+////Insert
+//		s.insert(5,"World");
+//		System.out.println("Insert:"+s);
+////replace
+//		s.replace(0, 5,"Hiii");
+//		System.out.println("Replace:"+s);
+////delete
+//		s.delete(0, 4);
+//		System.out.println("Delete:"+s);
+////reverse
+//		s.reverse();
+//		System.out.println("Reverse:"+s);
+//length
+		System.out.println("Length:"+s.length());
+//capacity-->New capacity=(Oldx2)+2
+		System.out.println("Capacity:"+s.capacity());
+//ensurecapacity
+		s.ensureCapacity(50);
+		System.out.println("Ensure:"+s.capacity());
+//charAt
+//		System.out.println("charAt:"+s.charAt(0));
+//		System.out.println("charAt:"+s.charAt(1));
+//setCharAt
+				
+//		s.setCharAt(0,'A');
+//		System.out.println("Set Character:"+s);
+	}
+}
