@@ -1,0 +1,39 @@
+--------------Recursion-----------------
+package hiii;
+public class Methods
+//{
+//Print 1 to 5
+//	static void print(int n) {
+//        if (n > 5)
+//            return;
+//        System.out.println(n);
+//        print(n + 1);
+//    }
+//    public static void main(String[] args) {
+//        print(1);
+    
+//Factorial
+//            static int factorial(int n) {
+//                if (n == 1)
+//                    return 1;
+//
+//                return n * factorial(n - 1);
+//            }
+//
+//            public static void main(String[] args) {
+//                System.out.println(factorial(5));
+//                
+//Fibinocci
+//                static int fibonacci(int n) {
+//                        if (n <= 1)
+//                            return n;
+//
+//                        return fibonacci(n - 1) + fibonacci(n - 2);
+//                    }
+//
+//                    public static void main(String[] args) {
+//                        for (int i = 0; i < 7; i++) {
+//                            System.out.print(fibonacci(i) + " ");
+//                        }
+//                    }
+//}
